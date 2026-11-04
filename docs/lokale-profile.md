@@ -1,10 +1,10 @@
 # Suchmaschinen und lokale Unternehmensprofile
 
-Die Inhaberin oder eine von ihr autorisierte Person legt die Konten an und bestätigt die Einträge. Vor einer Neuanlage nach „MK Gebäudereinigung“ in Leipzig suchen. Einen bestehenden passenden Eintrag übernehmen oder korrigieren.
+Die Inhaberin oder eine von ihr autorisierte Person legt die Konten an und bestätigt die Einträge. Vor einer Neuanlage nach „MK-Gebäudereinigung“ in Leipzig suchen. Einen bestehenden passenden Eintrag übernehmen oder korrigieren.
 
 ## Gemeinsame Angaben
 
-- Name: **MK Gebäudereinigung**.
+- Name: **MK-Gebäudereinigung**.
 - Website: **https://mk-reinigungsteam.de/**.
 - Telefon: **+49 176 84983536**. E-Mail, falls vorgesehen: **madina@mk-reinigungsteam.de**.
 - Tätigkeitsbereich: allgemeine Gebäudereinigung für Privat- und Geschäftskunden. Als Einzugsgebiet Leipzig und nur tatsächlich bediente Orte oder Postleitzahlen in der Umgebung angeben.
