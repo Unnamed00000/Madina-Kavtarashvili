@@ -32,9 +32,9 @@ Die fertigen Dateien liegen in `dist/`.
 
 Git-Integration verwenden, damit neue Commits in `main` automatisch veröffentlicht werden. Keine API-Schlüssel für den Build erforderlich.
 
-## Domain später verbinden
+## Hauptdomain und Freigabe
 
-Nach erfolgreicher Veröffentlichung unter der zugewiesenen `pages.dev`-Adresse kann `mk-reinigungsteam.de` in Cloudflare Pages unter „Custom domains“ hinzugefügt werden. Die dort angezeigten DNS-Schritte befolgen. Vor einem Nameserver-Wechsel bestehende DNS-Einträge einschließlich MX, SPF, DKIM und DMARC erhalten, damit E-Mail weiter funktioniert. Die Erstveröffentlichung verändert die Domain nicht.
+Die Hauptadresse ist [mk-reinigungsteam.de](https://mk-reinigungsteam.de/). Die [Checkliste für den öffentlichen Start](docs/freigabe.md) beschreibt die Weiterleitung von `www`, die Freigabe der Rechtstexte und die Prüfung der Indexierung. Die [Anleitung für Suchmaschinen und Unternehmensprofile](docs/lokale-profile.md) ist für die Inhaberin bestimmt.
 
 ## Inhalt und nächste Schritte
 
@@ -42,8 +42,8 @@ Nach erfolgreicher Veröffentlichung unter der zugewiesenen `pages.dev`-Adresse 
 - E-Mail: `madina@mk-reinigungsteam.de`, Link: `mailto:madina@mk-reinigungsteam.de`
 - Firmenlogo aus der bereitgestellten Vorlage, als transparentes WebP in `public/mk-logo.webp`
 - KI-generiertes Symbolbild für die Reinigung in `public/reinigung.webp`
-- Die Testversion ist mit `noindex, nofollow` versehen.
-- Vor dem regulären Unternehmensauftritt die vollständigen, geprüften Anbieterangaben für Impressum und Datenschutz ergänzen. Geschäftsanschrift und verantwortliche Person wurden für diese Testversion nicht bereitgestellt. Keine erfundenen Angaben oder leeren Rechtsseiten veröffentlicht.
-- Danach Suchmaschinenfreigabe und gegebenenfalls Canonical-/Social-Metadaten für die endgültige Domain aktualisieren.
+- Start- und Leistungsseite behalten `noindex, nofollow` bis zur Freigabe. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die Anweisung lesen können.
+- Vite baut die Startseite, `/gebaeudereinigung/` und die Fehlerseite. Die Rechtstexte und der Sitemap-Entwurf in `drafts/` bleiben außerhalb des Builds.
+- Die Leistungsseite beschreibt die bestätigte allgemeine Gebäudereinigung für private und gewerbliche Kunden in Leipzig und Umgebung. Einzelleistungen werden erst nach Bestätigung ergänzt.
 
 `public/_headers` enthält die HTTP-Sicherheitsheader für Cloudflare Pages.
