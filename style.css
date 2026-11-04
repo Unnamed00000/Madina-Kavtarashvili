@@ -19,7 +19,6 @@ html { scroll-behavior: smooth; scroll-padding-top: 1.25rem; }
 body { margin: 0; }
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
-.text-link { color: var(--blue); text-decoration: underline; text-underline-offset: .2em; }
 a:focus-visible { outline: 3px solid #008aca; outline-offset: 5px; }
 .container { width: min(100% - 6rem, 78rem); margin-inline: auto; }
 
@@ -127,13 +126,6 @@ a:focus-visible { outline: 3px solid #008aca; outline-offset: 5px; }
   line-height: 1.45;
 }
 .hero-audience { margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.6; }
-.service-title {
-  margin: 1rem 0 0;
-  font-size: clamp(2.1rem, 4.2vw, 3.55rem);
-  line-height: 1.06;
-  letter-spacing: -.045em;
-  overflow-wrap: anywhere;
-}
 .hero-actions { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1.65rem; }
 .button {
   display: inline-flex;

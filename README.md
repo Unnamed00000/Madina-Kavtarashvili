@@ -42,8 +42,8 @@ Die Hauptadresse ist [mk-reinigungsteam.de](https://mk-reinigungsteam.de/). Die 
 - E-Mail: `madina@mk-reinigungsteam.de`, Link: `mailto:madina@mk-reinigungsteam.de`
 - Firmenlogo aus der bereitgestellten Vorlage, als transparentes WebP in `public/mk-logo.webp`
 - KI-generiertes Symbolbild für die Reinigung in `public/reinigung.webp`
-- Start- und Leistungsseite behalten `noindex, nofollow` bis zur Freigabe. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die Anweisung lesen können.
-- Vite baut die Startseite, `/gebaeudereinigung/` und die Fehlerseite. Die Rechtstexte und der Sitemap-Entwurf in `drafts/` bleiben außerhalb des Builds.
-- Die Leistungsseite beschreibt die bestätigte allgemeine Gebäudereinigung für private und gewerbliche Kunden in Leipzig und Umgebung. Einzelleistungen werden erst nach Bestätigung ergänzt.
+- Die Startseite behält `noindex, nofollow` bis zur Freigabe. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die Anweisung lesen können.
+- Vite baut die Startseite und die Fehlerseite. Die Rechtstexte und der Sitemap-Entwurf in `drafts/` bleiben außerhalb des Builds.
+- Der Abschnitt Gebäudereinigung auf der Startseite bündelt das Angebot für private und gewerbliche Kunden in Leipzig und Umgebung. `public/_redirects` führt ältere Links zu diesem Abschnitt.
 
 `public/_headers` enthält die HTTP-Sicherheitsheader für Cloudflare Pages.
