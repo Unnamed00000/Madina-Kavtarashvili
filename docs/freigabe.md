@@ -11,9 +11,9 @@ Rechtsgrundlagen für die Prüfung sind [§ 5 DDG](https://www.gesetze-im-intern
 
 ## Weiterleitung von www in Cloudflare
 
-Die Hauptdomain und `www.mk-reinigungsteam.de` sind bereits über Cloudflare per HTTPS erreichbar. Die Weiterleitung wird als Regel in der bestehenden Cloudflare-Zone vorbereitet. Änderungen an den DNS-Einträgen, insbesondere denen für Microsoft 365, sind dafür nicht erforderlich.
+Die Cloudflare-Zone leitet `www.mk-reinigungsteam.de` per `301` auf die Hauptdomain weiter. Die Regel arbeitet auf HTTP-Ebene und benötigt keine Änderung an den DNS-Einträgen für Microsoft 365.
 
-In **Rules → Redirect Rules** eine **Single Redirect** für `www` anlegen:
+Unter **Rules → Redirect Rules** ist die **Single Redirect** für `www` wie folgt konfiguriert:
 
 | Einstellung | Wert |
 | --- | --- |
@@ -26,7 +26,7 @@ In **Rules → Redirect Rules** eine **Single Redirect** für `www` anlegen:
 
 Die Bedingung trifft ausschließlich auf `www` zu. Das Ziel liegt auf der Hauptdomain, daher greift dieselbe Regel dort nicht erneut. Eine pfadbasierte Pages-Regel in `_redirects` eignet sich dafür nicht. [Cloudflare-Dokumentation](https://developers.cloudflare.com/rules/url-forwarding/single-redirects/create-dashboard/)
 
-Nach dem Aktivieren muss der erste Aufruf unten auf `https://mk-reinigungsteam.de/?quelle=www-test` weiterleiten und mit `200` enden. Beim zweiten Aufruf muss der Pfad samt Abfrage im Weiterleitungsziel erhalten bleiben.
+Der erste Prüfaufruf leitet auf `https://mk-reinigungsteam.de/?quelle=www-test` weiter und endet mit `200`. Beim zweiten Aufruf bleibt der Pfad samt Abfrage im Weiterleitungsziel erhalten.
 
 ```sh
 curl -IL --max-redirs 3 "https://www.mk-reinigungsteam.de/?quelle=www-test"
