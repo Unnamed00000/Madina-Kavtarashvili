@@ -40,8 +40,8 @@ Nach erfolgreicher Veröffentlichung unter der zugewiesenen `pages.dev`-Adresse 
 
 - Telefonnummer: `+49 176 84983536`, Link: `tel:+4917684983536`
 - E-Mail: `madina@mk-reinigungsteam.de`, Link: `mailto:madina@mk-reinigungsteam.de`
-- Temporäre Wortmarke statt eines nicht bereitgestellten Firmenlogos
-- Bürofoto: [Unsplash](https://images.unsplash.com/photo-1497366811353-6870744d04b2), lokal als `public/office.jpg` eingebunden; dekoratives Motiv, kein Foto eines Kundenobjekts
+- Firmenlogo aus der bereitgestellten Vorlage, als transparentes WebP in `public/mk-logo.webp`
+- KI-generiertes Symbolbild für die Reinigung in `public/reinigung.webp`
 - Die Testversion ist mit `noindex, nofollow` versehen.
 - Vor dem regulären Unternehmensauftritt die vollständigen, geprüften Anbieterangaben für Impressum und Datenschutz ergänzen. Geschäftsanschrift und verantwortliche Person wurden für diese Testversion nicht bereitgestellt. Keine erfundenen Angaben oder leeren Rechtsseiten veröffentlicht.
 - Danach Suchmaschinenfreigabe und gegebenenfalls Canonical-/Social-Metadaten für die endgültige Domain aktualisieren.
