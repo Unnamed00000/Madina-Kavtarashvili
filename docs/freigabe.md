@@ -2,7 +2,7 @@
 
 ## Angaben der Inhaberin
 
-- Für das Impressum den vollständigen Namen der Unternehmerin beziehungsweise den eingetragenen Unternehmensnamen mit Rechtsform sowie die ladungsfähige Geschäftsanschrift bestätigen. Gegebenenfalls Vertretungsberechtigte, Register und Nummer sowie zugeteilte USt-IdNr. und/oder W-IdNr. ergänzen. Die persönliche Steuernummer ist hierfür nicht erforderlich.
+- Geschäftsbezeichnung und Name der Inhaberin stehen in den Entwürfen. Für die Freigabe fehlt die bestätigte ladungsfähige Geschäftsanschrift. Gegebenenfalls Angaben zur Rechtsform, zu Vertretungsberechtigten, zum Register und zu zugeteilten USt-IdNr. und/oder W-IdNr. ergänzen. Die persönliche Steuernummer ist hierfür nicht erforderlich.
 - Sofern anwendbar, zuständige Aufsicht und berufsrechtliche Angaben sowie Pflichten zur Verbraucherschlichtung klären.
 - Für die Datenschutzerklärung die verantwortliche Stelle und gegebenenfalls den Datenschutzbeauftragten bestätigen. Die tatsächlich eingesetzten Cloudflare- und Microsoft-365-Vertragspartner, Verarbeitung und Empfänger, Löschfristen beziehungsweise Kriterien, Rechtsgrundlagen und etwaige Drittlandübermittlungen anhand der Einstellungen und Verträge prüfen.
 - Die veröffentlichungsfähigen Fassungen von Impressum und Datenschutzerklärung zur Veröffentlichung freigeben. Eine konkrete Leistung wie Büroreinigung erst nach Bestätigung in Texte oder Leistungsseiten aufnehmen.
