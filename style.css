@@ -292,6 +292,24 @@ h2 { margin: 0; font-size: clamp(2.1rem, 4vw, 3.55rem); line-height: 1.04; lette
 .footer-inner span { display: flex; align-items: center; gap: .4rem; }
 .footer-inner .icon { width: 1rem; height: 1rem; }
 
+.legal-content { max-width: 52rem; }
+.legal-content h1 {
+  margin: .65rem 0 1.15rem;
+  font-size: clamp(2.1rem, 4vw, 3.55rem);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+.legal-content h2 { font-size: clamp(1.4rem, 3vw, 1.85rem); }
+.legal-content section { margin-top: 2rem; }
+.legal-content p, .legal-content li { line-height: 1.65; }
+.legal-content a:not(.button) { color: var(--blue); text-decoration: underline; }
+.legal-intro {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: .55rem;
+  background: var(--light);
+}
+
 @media (max-width: 1050px) {
   .container { width: calc(100% - 4rem); }
   .hero-visual { min-height: 23rem; }
