@@ -34,7 +34,7 @@ Git-Integration verwenden, damit neue Commits in `main` automatisch veröffentli
 
 ## Hauptdomain und Freigabe
 
-Die Hauptadresse ist [mk-reinigungsteam.de](https://mk-reinigungsteam.de/). Die [Checkliste für den öffentlichen Start](docs/freigabe.md) beschreibt die Weiterleitung von `www`, die Freigabe der Rechtstexte und die Prüfung in Google Search Console.
+Die Hauptadresse ist [mk-reinigungsteam.de](https://mk-reinigungsteam.de/). Die [Checkliste für den öffentlichen Start](docs/freigabe.md) beschreibt die Weiterleitung von `www`, die Freigabe der Rechtstexte und die Prüfung der Indexierung. Die [Anleitung für Suchmaschinen und Unternehmensprofile](docs/lokale-profile.md) ist für die Inhaberin bestimmt.
 
 ## Inhalt und nächste Schritte
 
@@ -42,8 +42,8 @@ Die Hauptadresse ist [mk-reinigungsteam.de](https://mk-reinigungsteam.de/). Die 
 - E-Mail: `madina@mk-reinigungsteam.de`, Link: `mailto:madina@mk-reinigungsteam.de`
 - Firmenlogo aus der bereitgestellten Vorlage, als transparentes WebP in `public/mk-logo.webp`
 - KI-generiertes Symbolbild für die Reinigung in `public/reinigung.webp`
-- Die Startseite behält `noindex, nofollow` bis zur Freigabe. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die Anweisung lesen können.
-- Die Rechtstexte in `drafts/` sind Arbeitsentwürfe. Vite baut ausschließlich die Startseite und die Fehlerseite. Die Entwürfe stehen weder in der Navigation noch in der Sitemap.
-- Bestätigt ist die allgemeine Gebäudereinigung für private und gewerbliche Kunden in Leipzig und Umgebung. Einzelleistungen werden erst nach Bestätigung ergänzt.
+- Start- und Leistungsseite behalten `noindex, nofollow` bis zur Freigabe. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die Anweisung lesen können.
+- Vite baut die Startseite, `/gebaeudereinigung/` und die Fehlerseite. Die Rechtstexte und der Sitemap-Entwurf in `drafts/` bleiben außerhalb des Builds.
+- Die Leistungsseite beschreibt die bestätigte allgemeine Gebäudereinigung für private und gewerbliche Kunden in Leipzig und Umgebung. Einzelleistungen werden erst nach Bestätigung ergänzt.
 
 `public/_headers` enthält die HTTP-Sicherheitsheader für Cloudflare Pages.
