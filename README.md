@@ -1,6 +1,6 @@
-# MK Gebäudereinigung
+# MK-Gebäudereinigung
 
-Statische, responsive Vorschaltseite für MK Gebäudereinigung in Leipzig. HTML5, CSS3 und Vite; kein clientseitiges JavaScript, keine externen Schriften, kein Tracking.
+Statische, responsive Vorschaltseite für MK-Gebäudereinigung in Leipzig. HTML5, CSS3 und Vite; kein clientseitiges JavaScript, keine externen Schriften, kein Tracking.
 
 ## Lokal starten
 
